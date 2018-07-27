@@ -9,6 +9,7 @@ public class ErrorHandler
 
     public static void SetError(ErrorType _errorStr, string _erorrValue)
     {
+
         if (errorType == ErrorType.None)
         {
             errorType = _errorStr;

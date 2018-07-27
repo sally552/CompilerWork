@@ -13,7 +13,7 @@ public class Parser
         
         int from = 0;
 
-        return Calculate.Instance.loadAndCalculate(data, ref from, Calculate.END_LINE).ToString();
+        return Calculate.Instance.LoadAndCalculate(data, ref from, Calculate.END_LINE).ToString();
     }
 
     private string Preprocess(string data)

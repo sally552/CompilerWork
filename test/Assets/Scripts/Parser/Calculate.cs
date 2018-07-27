@@ -25,7 +25,7 @@ public class Calculate
     }
 
     // основной процесс
-    public double loadAndCalculate(string data, ref int from, char to = END_LINE)
+    public double LoadAndCalculate(string data, ref int from, char to = END_LINE)
     {
         if (from >= data.Length || data[from] == to)
         {
